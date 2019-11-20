@@ -1,0 +1,4 @@
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+# m h dom m dow user
+* * * * * root /sync.sh >> /var/log/cron.log 2>&1
